@@ -1,11 +1,11 @@
-#N canvas 4 38 821 822 12;
+#N canvas 833 38 759 822 12;
 #X obj 120 173 sel 0;
 #X obj 120 198 bng 20 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
 #X obj 49 173 loadbang;
 #X obj 173 172 metro;
 #X obj 173 197 bng 20 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
 #X obj 173 222 int 1;
-#X floatatom 173 281 5 0 0 0 - - - 0;
+#X floatatom 173 258 5 0 0 0 - - - 0;
 #X obj 173 305 % 8;
 #X obj 173 330 + 1;
 #X floatatom 173 355 5 0 0 0 - - - 0;
@@ -33,6 +33,12 @@
 #X obj 161 502 s three;
 #X msg 120 223 -1;
 #X obj 105 104 tgl 35 0 empty empty empty 0 -10 0 12 #c6ffc7 #000000 #000000 0 1;
+#X obj 53 310 + 1;
+#X floatatom 53 335 5 0 0 0 - - - 0;
+#X obj 53 359 sel 1;
+#X obj 53 384 bng 20 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
+#X obj 53 409 s bus_random;
+#X obj 53 285 % 16;
 #X connect 0 0 1 0;
 #X connect 1 0 32 0;
 #X connect 2 0 1 0;
@@ -41,6 +47,7 @@
 #X connect 5 0 6 0;
 #X connect 5 0 13 0;
 #X connect 6 0 7 0;
+#X connect 6 0 39 0;
 #X connect 7 0 8 0;
 #X connect 8 0 9 0;
 #X connect 9 0 14 0;
@@ -67,4 +74,9 @@
 #X connect 32 0 5 0;
 #X connect 33 0 0 0;
 #X connect 33 0 3 0;
+#X connect 34 0 35 0;
+#X connect 35 0 36 0;
+#X connect 36 0 37 0;
+#X connect 37 0 38 0;
+#X connect 39 0 34 0;
 #X coords 0 -1 1 1 100 45 2 99 99;

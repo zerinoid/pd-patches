@@ -1,12 +1,14 @@
-#N canvas 4 38 998 822 12;
+#N canvas 0 34 1600 834 12;
 #X obj 167 500 drum-noise-snare;
-#X obj 292 632 outputs~;
+#X obj 286 640 outputs~;
 #X obj 319 499 drum-noise-kick;
 #X obj 31 32 16stepseq;
 #X obj 35 103 16stepctrl;
 #X obj 468 102 16stepctrl;
-#X obj 470 438 909kick;
+#X obj 468 431 909kick;
 #X obj 34 433 808snare;
+#X obj 900 102 16stepctrl;
+#X obj 906 485 808hihat;
 #X connect 0 0 1 0;
 #X connect 0 0 1 1;
 #X connect 2 0 1 0;
@@ -17,3 +19,6 @@
 #X connect 6 0 1 1;
 #X connect 7 0 1 0;
 #X connect 7 0 1 1;
+#X connect 8 0 9 0;
+#X connect 9 0 1 0;
+#X connect 9 0 1 1;

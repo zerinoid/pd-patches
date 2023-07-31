@@ -1,26 +1,36 @@
-#N canvas 0 34 1600 834 12;
+#N canvas 6 40 821 829 12;
 #X obj 120 173 sel 0;
-#X obj 120 198 bng 20 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
+#X obj 120 198 bng 20 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc
+#000000 #000000;
 #X obj 49 173 loadbang;
 #X obj 173 172 metro;
-#X obj 173 197 bng 20 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
+#X obj 173 197 bng 20 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc
+#000000 #000000;
 #X obj 173 222 int 1;
-#X floatatom 173 259 5 0 0 0 - - - 0;
+#X floatatom 173 259 5 0 0 0 - - -, f 5;
 #X obj 173 330 + 1;
-#X floatatom 173 355 5 0 0 0 - - - 0;
+#X floatatom 173 355 5 0 0 0 - - -, f 5;
 #X obj 212 84 loadbang;
 #X msg 212 109 375;
-#X floatatom 150 105 5 0 0 0 - - - 0;
+#X floatatom 150 105 5 0 0 0 - - -, f 5;
 #X obj 275 283 + 1;
-#X obj 58 477 bng 20 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
+#X obj 58 477 bng 20 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc
+#000000 #000000;
 #X obj 58 502 s one;
-#X obj 110 477 bng 20 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
-#X obj 161 477 bng 20 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
-#X obj 226 477 bng 20 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
-#X obj 283 477 bng 20 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
-#X obj 341 477 bng 20 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
-#X obj 389 475 bng 20 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
-#X obj 452 476 bng 20 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
+#X obj 110 477 bng 20 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc
+#000000 #000000;
+#X obj 161 477 bng 20 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc
+#000000 #000000;
+#X obj 226 477 bng 20 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc
+#000000 #000000;
+#X obj 283 477 bng 20 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc
+#000000 #000000;
+#X obj 341 477 bng 20 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc
+#000000 #000000;
+#X obj 389 475 bng 20 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc
+#000000 #000000;
+#X obj 452 476 bng 20 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc
+#000000 #000000;
 #X obj 110 502 s two;
 #X obj 226 502 s four;
 #X obj 283 502 s five;
@@ -30,16 +40,25 @@
 #X text 78 198 reset;
 #X obj 161 502 s three;
 #X msg 120 223 -1;
-#X obj 105 104 tgl 35 0 empty empty empty 0 -10 0 12 #c6ffc7 #000000 #000000 0 1;
+#X obj 105 104 tgl 35 0 empty empty empty 0 -10 0 12 #c6ffc7 #000000
+#000000 0 1;
 #X obj 172 409 sel 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16;
-#X obj 35 562 bng 20 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
-#X obj 87 562 bng 20 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
-#X obj 138 562 bng 20 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
-#X obj 203 562 bng 20 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
-#X obj 274 563 bng 20 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
-#X obj 360 565 bng 20 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
-#X obj 444 564 bng 20 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
-#X obj 520 565 bng 20 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
+#X obj 35 562 bng 20 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc
+#000000 #000000;
+#X obj 87 562 bng 20 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc
+#000000 #000000;
+#X obj 138 562 bng 20 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc
+#000000 #000000;
+#X obj 203 562 bng 20 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc
+#000000 #000000;
+#X obj 274 563 bng 20 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc
+#000000 #000000;
+#X obj 360 565 bng 20 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc
+#000000 #000000;
+#X obj 444 564 bng 20 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc
+#000000 #000000;
+#X obj 520 565 bng 20 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc
+#000000 #000000;
 #X obj 35 587 s nine;
 #X obj 87 587 s ten;
 #X obj 138 587 s eleven;
@@ -51,9 +70,10 @@
 #X obj 173 305 % 16;
 #X obj 53 285 % 32;
 #X obj 53 310 + 1;
-#X floatatom 53 335 5 0 0 0 - - - 0;
+#X floatatom 53 335 5 0 0 0 - - -, f 5;
 #X obj 53 359 sel 1;
-#X obj 53 384 bng 20 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
+#X obj 53 384 bng 20 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc
+#000000 #000000;
 #X obj 53 409 s bus_random;
 #X connect 0 0 1 0;
 #X connect 1 0 30 0;

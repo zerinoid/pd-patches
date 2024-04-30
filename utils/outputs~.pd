@@ -1,6 +1,6 @@
-#N canvas 833 38 759 408 10;
+#N canvas 1201 486 391 374 10;
 #X obj 13 106 hsl 42 23 0.01 1 1 0 \$0-v \$0-v volume 7 13 1 9 #ececec #0c4410 #000000 0 0;
-#X obj 57 106 tgl 18 0 THIS_IS_HERE_TO_GET_RID_OF_THE_OUTLET \$0-dsp-toggle dsp 2 9 1 9 #fcfcfc #bcbcbc #202020 0 1;
+#X obj 57 106 tgl 18 0 THIS_IS_HERE_TO_GET_RID_OF_THE_OUTLET \$0-dsp-toggle dsp 2 9 1 9 #d8fcd8 #bcbcbc #202020 0 1;
 #N canvas 833 38 759 408 dsp 0;
 #X obj 36 30 inlet;
 #X obj 117 227 select 0 1;
@@ -60,6 +60,7 @@
 #X text 20 444 Created by Katja Vetter after an idea by Claude Heiland-Allen;
 #X obj 186 355 clip~ -0.9 0.9;
 #X obj 235 380 clip~ -0.9 0.9;
+#X obj 203 193 s~ mon;
 #X connect 0 0 13 0;
 #X connect 0 0 17 0;
 #X connect 1 0 2 0;
@@ -70,6 +71,7 @@
 #X connect 8 0 11 0;
 #X connect 9 0 23 0;
 #X connect 10 0 5 1;
+#X connect 10 0 24 0;
 #X connect 11 0 9 1;
 #X connect 13 0 12 0;
 #X connect 14 0 4 0;

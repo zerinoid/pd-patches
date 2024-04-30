@@ -1,7 +1,7 @@
-#N canvas 0 34 1600 834 12;
-#X floatatom 551 220 5 0 0 0 - - - 0;
-#X obj 551 195 midiin;
-#X obj 526 273 unpack f f f;
+#N canvas 4 38 1081 822 12;
+#X floatatom 500 224 5 0 0 0 - - - 0;
+#X obj 500 199 midiin;
+#X obj 475 277 unpack f f f;
 #X obj 61 51 notein;
 #X floatatom 61 76 5 0 0 0 - - - 0;
 #X obj 61 100 mtof;
